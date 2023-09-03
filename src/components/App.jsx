@@ -1,6 +1,6 @@
 import { Profile } from "./profile/profile";
 import user from '../user.json'
-import { Statistics } from "./statistics/Statistics";
+import { Statistics } from "./statistics/statistics";
 import statistics from '../statistics.json'
 import { Friends } from "./friends/friends";
 import friends from '../friends.json'
@@ -19,7 +19,7 @@ export const App = () => {
       />
 
       <Statistics 
-      title={'Title'}
+      title={'Upload stats'}
       Roma={statistics}
       />
 

@@ -1,3 +1,5 @@
+import './prof.css'
+
 export const Profile = (props) => {
     return <div>
         <div class="profile">
@@ -14,15 +16,15 @@ export const Profile = (props) => {
   
     <ul class="stats">
       <li>
-        <span class="label">Followers</span>
+        <span class="label">Followers </span>
         <span class="quantity">{props.followers}</span>
       </li>
       <li>
-        <span class="label">Views</span>
+        <span class="label">Views </span>
         <span class="quantity">{props.views}</span>
       </li>
       <li>
-        <span class="label">Likes</span>
+        <span class="label">Likes </span>
         <span class="quantity">{props.likes}</span>
       </li>
     </ul>

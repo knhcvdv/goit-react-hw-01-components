@@ -1,3 +1,5 @@
+import './frien.css'
+
 export const Friends = (props) => {
     return <div>
         <ul class="friend-list">
