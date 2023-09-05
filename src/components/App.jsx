@@ -1,11 +1,11 @@
 import { Profile } from "./profile/profile";
 import user from '../user.json'
-import { Statistics } from "./statistics/statistics";
 import statistics from '../statistics.json'
 import { Friends } from "./friends/friends";
 import friends from '../friends.json'
 import { TransactionHistory } from "./transactionHistory/transactionHistory";
 import transactionData from '../transactionData.json'
+import { Statistics } from "./statistics/statistics";
 export const App = () => {
   return (
     <div>
@@ -20,8 +20,8 @@ export const App = () => {
       />
 
       <Statistics 
-      title={'Upload statsф'}
-      Roma={statistics}
+        title={'Upload stats'}
+        Roma={statistics}
       />
 
       <Friends 
