@@ -5,7 +5,7 @@ import { Friends } from "./friends/friends";
 import friends from '../friends.json'
 import { TransactionHistory } from "./transactionHistory/transactionHistory";
 import transactionData from '../transactionData.json'
-import { Statistics } from "./statistics/statistics";
+import { Statistics } from "./statistics/Statistics";
 export const App = () => {
   return (
     <div>
